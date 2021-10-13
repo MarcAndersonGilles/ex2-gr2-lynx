@@ -8,6 +8,14 @@
 </head>
 <body>
     <h2>Vous êtes connecté</h2>
+    <?php
+        $codeu= $_POST["courriel"];
+        $passe = $_POST["mdp"];
+
+    ?>
+    <p>Bienvenu <?= $codeu; ?> !
+    Votre mot de passe : <?= $passe; ?>
+    </p>
     
 </body>
 </html>
